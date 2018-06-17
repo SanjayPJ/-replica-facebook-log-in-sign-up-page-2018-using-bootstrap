@@ -1,0 +1,67 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+h5{
+	font-size: 180%;
+	font-weight: 600;
+}
+h2{
+	font-weight: 600;
+	font-size: 290%;
+}
+.main-container input[type=text], .main-container input[type=date] {
+	border: 1px solid grey;
+	border-radius: 5px;
+	height: 40px;
+	padding: 15px;
+	font-size: 130%;
+}
+.main-container input[type=text]:focus, .main-container input[type=date]:focus{
+    outline: none;
+    border: 2px solid #829BCE;
+}
+.bg-primary{
+	background-color: #3d5b99 !important;
+}
+button{
+	border:none;
+    background-image:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #8b9dc3;
+    border-radius: 2px;
+    outline: none;
+}
+.log-in{
+	height: 24px;
+}
+.opacity{
+	opacity: 0.8;
+}
+.hover-underline:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.navbar{
+	padding-bottom: 1px;
+}
+.main-container{
+	background: #e9ebee;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #fff, #c3ccdd);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #fff, #c3ccdd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.text-large{
+	font-size: 130%;
+}
+a{
+	color: #3d5b99;
+}
+.list-inline li{
+	display: inline-block;
+	margin-left: 10px;
+}
+td{
+	padding-left: 5px;
+}
